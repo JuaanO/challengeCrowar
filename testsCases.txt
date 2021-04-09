@@ -1,0 +1,10 @@
+Feature: Challenge Crowdar
+ 
+As a valid user I want to login successfully to Saucedemo web page,
+and verify that it works properly
+
+Login
+1)Verify that the user "" can be able to login to webapp
+Sorting
+2)Verify that After a user applies the sorting feature, all items appear in the specified order
+Purchase
