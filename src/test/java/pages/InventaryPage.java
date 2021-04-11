@@ -21,6 +21,12 @@ public class InventaryPage {
     private final By sortDropDownHlOption;
     private final By priceProducts;
     private final By nameProducts;
+    private final By addToCartBackpack;
+    private final By addToCartBikeLight;
+    private final By addToCartTShirt;
+    private final By addToCartFleeceJacket;
+    private final By addToCartLabsOnesie;
+    private final By addToCartTShirtRed;
 
     String orderProductsLowHigh = "[$7.99, $9.99, $15.99, $15.99, $29.99, $49.99]";
     String orderProductsHighLow = "[$49.99, $29.99, $15.99, $15.99, $9.99, $7.99]";
@@ -38,6 +44,38 @@ public class InventaryPage {
         sortDropDownHlOption = By.cssSelector("option[value='hilo']");
         priceProducts = By.xpath("//div[@class='inventory_item_price']");
         nameProducts = By.xpath("//div[@class='inventory_item_name']");
+        addToCartBackpack = By.xpath("//button[@id='add-to-cart-sauce-labs-backpack']");
+        addToCartBikeLight = By.xpath("//button[@id='add-to-cart-sauce-labs-bike-light']");
+        addToCartTShirt = By.xpath("//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']");
+        addToCartFleeceJacket = By.xpath("//button[@id='add-to-cart-sauce-labs-fleece-jacket']");
+        addToCartLabsOnesie = By.xpath("//button[@id='add-to-cart-sauce-labs-onesie']");
+        addToCartTShirtRed = By.xpath("//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']");
+    }
+
+    public void addProducttoCart(String product){
+        switch (product){
+            case "Sauce Labs Backpack":
+                driver.findElement(addToCartBackpack).click();
+                break;
+            case "Sauce Labs Bike Light":
+                driver.findElement(addToCartBikeLight).click();
+                break;
+            case "Sauce Labs Bolt T-Shirt":
+                driver.findElement(addToCartTShirt).click();
+                break;
+            case "Sauce Labs Fleece Jacket":
+                driver.findElement(addToCartFleeceJacket).click();
+                break;
+            case "Sauce Labs Onesie":
+                driver.findElement(addToCartLabsOnesie).click();
+                break;
+            case "Test.allTheThings() T-Shirt (Red)":
+                driver.findElement(addToCartTShirtRed).click();
+                break;
+            default:
+                driver.findElement(addToCartBackpack).click();
+                System.out.println("Productos no existe.");
+        }
     }
 
     public void sortProductsNameAz(){

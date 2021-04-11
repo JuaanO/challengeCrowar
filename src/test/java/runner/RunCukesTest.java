@@ -11,6 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/java/features",
         glue = {"seleniumgluecode"},
         format = {"json:target/cucumber/cucumber.json", "html:target/cucumber/cucumber.html"},
+        //Plugin incompatible con la version de cucumber utilizada, no es posible generar reportes mas bonitos
 //        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "json:target/cucumber-report.json"},
 //        plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 //        plugin = {"com.vimalselvam.cucumber.ExtentCucumberFormatter:/output/report.html"},

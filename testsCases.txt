@@ -3,18 +3,18 @@ Feature: Challenge Crowdar
 As a valid user I want to login successfully to Saucedemo web page,
 and verify that it works properly
 
-Login
+Login with a user
 1)Login with a valid credentials
 2)Login with a invalid credentials
 3)Login with a bloked user
 
-Sorting
+Sorting products from inventary page
 1)Sorting products by price, high to low is working.
 2)Sorting products by price, low to high is working.
 3)Sorting products in alphabetical order is working.
 4)Sorting products in reverse alphabetical order is working.
 
-Purchase
-1)Comprar un producto satisfactoriamente
+Purchase a product
+1)Buy a product successfully
 2)Suma de la cantidad del dinero, sea igual a la comprada
 3)Caluculo del impuesto
