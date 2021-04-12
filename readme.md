@@ -15,7 +15,32 @@ It has a Page object model.
 
 ### Screenshot
 
-[comment]: <> (![Image text]&#40;https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg&#41;)
+Ejecucion desde Jenkins
+![Alt text](screenshots/screenshot1.png?raw=false "Ejecucion desde Jenkins")
+
+Log de ejecucion de Jenkins
+![Alt text](screenshots/screenshot2.png?raw=false "Ejecucion desde Jenkins")
+
+Prueba de ejecucion con un error intencional, adjunta donde fue el problema
+![Alt text](screenshots/screenshot3.png?raw=false "Ejecucion desde Jenkins")
+
+Ejecucion sin problemas
+![Alt text](screenshots/screenshot4.png?raw=false "Ejecucion desde Jenkins")
+
+Consola de selenoid-UI muestra los browser abiertos en ejecucion(5 sesiones maximas concurrentes)
+![Alt text](screenshots/screenshot5.png?raw=false "Ejecucion desde Jenkins")
+
+Ejecucion desde Jenkins
+![Alt text](screenshots/screenshot6.png?raw=false "Ejecucion desde Jenkins")
+
+Reporte sin problemas
+![Alt text](screenshots/screenshot7.png?raw=false "Ejecucion desde Jenkins")
+
+Ejecucion desde Jenkins
+![Alt text](screenshots/screenshot8.png?raw=false "Ejecucion desde Jenkins")
+
+Test en ejecucion
+![Alt text](screenshots/screenshot9.png?raw=false "Ejecucion desde Jenkins")
 
 ## Technologies
 ***
