@@ -43,7 +43,7 @@ public class LoginPage extends TestBase{
 
     @Then("^the user can see the alert of blocked user$")
     public void theUserCanSeeTheAlertOfBlockedUser() {
-        loginPage.assertionLoginError();
+        loginPage.assertionLoginBlockedUser();
     }
 
 }
