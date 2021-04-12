@@ -1,0 +1,10 @@
+runner\RunCukesTest.class
+seleniumgluecode\Hooks.class
+seleniumgluecode\PurchaseProducts.class
+pages\LoginPage.class
+seleniumgluecode\TestBase.class
+pages\CartPage.class
+pages\CheckoutPage.class
+seleniumgluecode\ProductsPage.class
+pages\InventaryPage.class
+seleniumgluecode\LoginPage.class
